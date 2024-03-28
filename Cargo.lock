@@ -877,9 +877,9 @@ checksum = "d231dfb89cfffdbc30e7fc41579ed6066ad03abda9e567ccafae602b97ec5024"
 
 [[package]]
 name = "hs-hackathon"
-version = "0.1.2"
+version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "78decf3a5b4ee72a64ed4f8c633b6f51e57e889a46adcf8da2dac5152a0b8f3e"
+checksum = "5f0c91553377054ed589e5afac12c371f8e919ef289eb04adc308577a06662ae"
 dependencies = [
  "clap",
  "color-eyre",
@@ -897,9 +897,9 @@ dependencies = [
 
 [[package]]
 name = "hs-hackathon-car"
-version = "0.1.2"
+version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d7353eee67e714b84d00484d5d58eb73f6ad637a279e20744fd38b80eea36347"
+checksum = "cf5661efdc74d23676f9cb726ef2644e13a77a1572de47508ba2e3fcf9d98a83"
 dependencies = [
  "eyre",
  "futures",
@@ -910,19 +910,21 @@ dependencies = [
  "rppal",
  "sysfs_gpio 0.5.4",
  "tokio",
+ "tracing",
 ]
 
 [[package]]
 name = "hs-hackathon-drone"
-version = "0.1.2"
+version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "91998263399636879bc64396476548e01bfbd39a9c63782a7ae1ab88d5c44871"
+checksum = "ccb436cc77e07563ac1cc2729585a3ceb101075ae41dbe57d6aa3a37ff66229a"
 dependencies = [
  "axum",
  "clap",
  "color-eyre",
  "eyre",
  "futures",
+ "hs-hackathon-vision",
  "image",
  "imageproc",
  "log",
@@ -942,9 +944,9 @@ dependencies = [
 
 [[package]]
 name = "hs-hackathon-macros"
-version = "0.1.2"
+version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c2d3fcc5602fc606d71f28017eaab022a92f1a7d9b573b4a88a6dd1c7fa69e1a"
+checksum = "7bb2522081374b6c93bbc393094b20a299f26dd19e3879ad89883b9f5c59b60e"
 dependencies = [
  "lazy_static",
  "proc-macro2",
@@ -954,9 +956,9 @@ dependencies = [
 
 [[package]]
 name = "hs-hackathon-vision"
-version = "0.1.2"
+version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "481cd0e475d1ca0fda586f5854a6aad486a14d8f1b4d2fa11d29a5baa51866ca"
+checksum = "dea985991d47ec50f8facb45f450144d242e4fddcc4aba87e7cbdc6ea804f04f"
 dependencies = [
  "crossterm",
  "eyre",
